@@ -29,6 +29,11 @@ app.use('/api/', limiter);
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true }));
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("Portfolio Backend Running");
+});
+
 // Routes
 app.use('/api/contact', require('./routes/contact'));
 app.use('/api/projects', require('./routes/projects'));
