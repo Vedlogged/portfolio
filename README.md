@@ -69,6 +69,6 @@ npm run dev
 
 ## 📧 Contact
 
-- Email: vedant@email.com
+- Email: chaudhrivedant62@email.com
 - GitHub: [github.com/vedant](https://github.com/vedant)
 - LinkedIn: [linkedin.com/in/vedant](https://linkedin.com/in/vedant)
